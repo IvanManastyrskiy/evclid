@@ -75,7 +75,52 @@ align-items: center ;
 .find:hover{
 
 }
-
-    
-
-
+.container{
+    max-width: 1770px;
+    margin: 0 auto;
+}
+.main__block-content{
+    width: 100%;
+    height: 600px;
+    padding: 100px 80px 30px;
+    position: relative;
+    margin-bottom: 100px;
+    background: url('');
+}   
+.block__content{
+    position: absolute;
+    left: 80px;
+    top: 100px;
+    z-index: 2;
+    color: #fff;
+    max-width: 850px;
+}
+.content-text__title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 23px;
+}
+.content-text__title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 23px;
+}
+.content-text__btn{
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 25px 37px;
+    background-color: #FF9900;
+    border: none;
+    color: #fff;
+}
+.content-text__elipse{
+    display: flex;
+    justify-content:flex-end ;
+    margin-top: 30px;
+}
+.elipse__noactive{
+    margin-left: 20px;
+}
