@@ -348,6 +348,7 @@ align-items: center ;
     font-size: 18px;
     line-height: 36px;
     color: #CACACA;
+
 }
 .block-content__contacts-left-icons{
     margin-top: 90px;
@@ -492,6 +493,9 @@ color: #FF9900;
 .block-two__buttons-more:hover{
     background-color:  #FF9900B2;
 }
+.block-two__buttons-more:focus{
+    background-color:  #FF9900B2;
+}
 .block-two__buttons-more:active{
     background-color:  #E1670E;
 }
@@ -501,8 +505,98 @@ color: #FF9900;
     border: none ;
 
 }
+.block-two__buttons-treaty:focus{
+    background-color: #666666;
+    border: none;
+    color: white;
+
+}
 .block-two__buttons-treaty:active{
     background-color: #000000;
     color: white;
 
+}
+.questions__block_block-info:hover .questions__block_block-info-text__question  {
+    color:#FF9900;
+}
+.questions__block_block-info:hover{
+    color:#FF9900; 
+    border-top: 1px #FF9900  solid;
+    border-bottom: 1px #FF9900 solid;
+    
+}
+
+.questions__block_block-info-text__question:focus{
+    color:#FF9900;
+}
+.questions__block_block-info:focus{
+    border: none;
+    color:#FF9900;
+    border-top: 1px #FF9900  solid;
+    border-bottom: 1px #FF9900 solid;
+}
+.questions__block_block-info-text__question:active{
+    color:#333333;
+}
+.questions__block_block-info:active{
+border: none;
+    border-top: 1px #CACACA  solid;
+    border-bottom: 1px #CACACA solid;
+}
+.form__name:hover{background-color: #666666;
+}
+.form__name:focus{background-color: #666666;
+}
+.form__name:active{background-color: #666666;
+    color: #FFFFFF;
+}
+.form__email:hover{background-color: #666666;
+}
+.form__email:focus{background-color: #666666;
+}
+.form__email:active{background-color: #666666;
+    color: #FFFFFF;
+}
+
+.form__message:hover{background-color: #666666;
+}
+.form__message:focus{background-color: #666666;
+}
+.form__message:active{background-color: #666666;
+    color: #FFFFFF;
+}
+.block-content__contacts-left__text:hover{
+    color: #FF9900;
+    
+}
+.block-content__contacts-left__text:focus{
+ border: 1px solid #FF9900;
+ color: #CACACA;
+    
+}
+.block-content__contacts-left__text:active{
+    color: #E1670E;
+       
+   }
+.X-btn{
+    border: none;
+    background: transparent;
+;
+}
+.questions__block_block-info:hover .X-btn ellipse{
+    fill: #FF9900;
+}
+.questions__block_block-info:hover .X-btn path{
+    fill:#FFFFFF ;
+}
+.form-button__sumbit:hover{
+    background-color:#FF9900B2;
+
+}
+.form-button__sumbit:active{
+    background-color:#E1670E;
+
+}
+.contacts__icon:hover path{
+    fill: #FF9900;
 }
